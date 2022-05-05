@@ -15,6 +15,8 @@ namespace EmployeeWage
             T.CheckEmpFullOrPartTime();
             SwitchCase SC=new SwitchCase();
             SC.EmpWageSwitchCase();
+            WageMonth WM=new WageMonth();
+            WM.Wage_Month();
         }
     }
 }
