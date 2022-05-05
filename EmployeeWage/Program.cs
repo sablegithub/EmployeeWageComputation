@@ -17,6 +17,8 @@ namespace EmployeeWage
             SC.EmpWageSwitchCase();
             WageMonth WM=new WageMonth();
             WM.Wage_Month();
+            Wage_MAX_DAY wmd=new Wage_MAX_DAY();
+            wmd.Wage_Month();
         }
     }
 }
