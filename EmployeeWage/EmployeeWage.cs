@@ -6,18 +6,19 @@ using System.Threading.Tasks;
 
 namespace EmployeeWage
 {
-    internal class EmployeeWage
+   public class EmployeeWage
     {
 
         int FULL_TIME = 1;
         int EMP_HOUR = 20;
         int emphour = 0;
         int empWage = 0;
-        Random r = new Random();
-        int check = r.Next(0, 2);
+        
 
         public void wage()
         {
+            Random r = new Random();
+            int check = r.Next(0, 2);
             if (check == FULL_TIME)
             {
                 emphour = 8;
