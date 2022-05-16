@@ -24,16 +24,14 @@ namespace EmployeeWage
             if(check == FULL_TIME)
             {
                 emphour = 8;
-                
                 Console.WriteLine("Full Time:"+(empWage=emphour*EMP_HOUR));
                 
 
             }
             else if(check == PART_TIME)
             {
-               // emphour = 4;
-                empWage = emphour * EMP_HOUR;
-                Console.WriteLine("Part Time :"+emphour);
+                emphour = 4;
+                Console.WriteLine("Part Time :"+(empWage = emphour * EMP_HOUR));
             }
             else
             {

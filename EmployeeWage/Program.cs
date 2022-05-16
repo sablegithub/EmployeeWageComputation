@@ -19,10 +19,13 @@ namespace EmployeeWage
             //SC.EmpWageSwitchCase();
             //WageMonth WM=new WageMonth();
             //WM.Wage_Month();
-            //Wage_MAX_DAY wmd=new Wage_MAX_DAY();
-            //wmd.Wage_Month();
-            EMPwageUsingClass eMPwageUsingClass =new EMPwageUsingClass();
-            eMPwageUsingClass.method();
+           // Wage_MAX_DAY wmd=new Wage_MAX_DAY();
+           // wmd.Wage_Month();
+            //EMPwageUsingClass eMPwageUsingClass =new EMPwageUsingClass();
+            //eMPwageUsingClass.method();
+            Multiple_Companies multiple_Companies   =new Multiple_Companies();
+          //  multiple_Companies.Company1();
+            multiple_Companies.Company2(20,800);
         }
     }
 }
