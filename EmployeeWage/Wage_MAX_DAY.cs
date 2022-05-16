@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EmployeeWage
 {
-    internal class Wage_MAX_DAY
+    public class Wage_MAX_DAY
     {
 
         int Emphours = 0;

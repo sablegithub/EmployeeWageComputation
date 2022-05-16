@@ -9,23 +9,30 @@ namespace EmployeeWage
             
             //Console.WriteLine(x);
             //Console.WriteLine("welcome to employee wage computation program");
+
             //EmpPresentorAbsent E = new EmpPresentorAbsent();
             //E.Attendance();
             //EmployeeWage E1 = new EmployeeWage();
             //E1.wage();
+
             //PartTimeorFullTime T =new PartTimeorFullTime();
             //T.CheckEmpFullOrPartTime();
+
             //SwitchCase SC=new SwitchCase();
             //SC.EmpWageSwitchCase();
+
             //WageMonth WM=new WageMonth();
             //WM.Wage_Month();
+
            // Wage_MAX_DAY wmd=new Wage_MAX_DAY();
            // wmd.Wage_Month();
-            //EMPwageUsingClass eMPwageUsingClass =new EMPwageUsingClass();
-            //eMPwageUsingClass.method();
-            Multiple_Companies multiple_Companies   =new Multiple_Companies();
+
+            Program1.EmpWageMethod();
+         
+
+          //  Multiple_Companies multiple_Companies   =new Multiple_Companies();
           //  multiple_Companies.Company1();
-            multiple_Companies.Company2(20,800);
+          //  multiple_Companies.Company2(20,800);
         }
     }
 }
