@@ -8,7 +8,7 @@ namespace EmployeeWage
 {
     internal class SwitchCase
     {
-        int PART_TIME = 1;
+        int  PART_TIME = 1;
         int FULL_TIME=2;
         int EMP_RATE_PER_HOUR = 20;
 
